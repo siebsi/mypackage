@@ -10,3 +10,11 @@ license = {file = "LICENSE.txt"}
 dependecies = [
     "numpy",
 ]
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+  "bumpver",
+  "pytest",
+  "pytest-cov",
+]
